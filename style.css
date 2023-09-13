@@ -1,7 +1,7 @@
 html {
     --s: 50px; /* control the size */
     --t: 6px;  /* control the thickness */
-    --c1: #084c7f;
+    --c1: #c117a1;
     --c2: #fef5e9;
   
     --_c: #0000 calc(98% - var(--t)),var(--c1) calc(100% - var(--t)) 98%,#0000;
@@ -20,16 +20,18 @@ html {
   }
   
 
-header{border: 2px solid rgb(255, 255, 255);
-    border-radius: 25%;
-    background-color: #1a315b;
-    color:white;
+header{border: 2px solid #c117a1;
+    border-radius: 40%;
+    background-color: whitesmoke;
+    color:#c117a1;
     text-align:center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:larger;
+  }
+ul > li >a {list-style: none; text-decoration: none;
+  margin-right: 50px;
+margin-left: 40px;
 }
-
 body {}
 
 p {background-color:#1a315b; color:white;}
