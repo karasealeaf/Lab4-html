@@ -29,12 +29,35 @@ header{border: 2px solid #c117a1;
     font-size:larger;
   }
 ul > li >a {list-style: none; text-decoration: none;
-  margin-right: 50px;
-margin-left: 40px;
+
 }
 body {}
 
-p {background-color:#1a315b; color:white;}
+ul > li {
+  display: inline;
+  float: center;
+  margin-right: 10%;
+}
+
+li > a {
+  color: rgb(176, 13, 111);
+}
+
+a:hover {
+  color: #0000;
+}
+
+h1 {
+  color: rgb(176, 13, 111);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+p {background-color:#000000; color:white;}
 
 
 
