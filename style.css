@@ -29,10 +29,7 @@ header{border: 2px solid #c117a1;
     font-size:larger;
   }
 ul > li >a {list-style: none; text-decoration: none;
-
 }
-body {}
-
 ul > li {
   display: inline;
   float: center;
