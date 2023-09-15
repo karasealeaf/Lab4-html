@@ -1,23 +1,4 @@
-html {
-    --s: 50px; /* control the size */
-    --t: 6px;  /* control the thickness */
-    --c1: #c117a1;
-    --c2: #fef5e9;
-  
-    --_c: #0000 calc(98% - var(--t)),var(--c1) calc(100% - var(--t)) 98%,#0000;
-    --_s: calc(2*var(--s)) calc(5*var(--s)/2);
-    --_r0: /var(--_s) radial-gradient(calc(var(--s)/2) at 0    20%,var(--_c));
-    --_r1: /var(--_s) radial-gradient(calc(var(--s)/2) at 100% 20%,var(--_c));
-    background:
-      0 0 var(--_r0),calc(-1*var(--s)) calc(5*var(--s)/4) var(--_r0),
-      var(--s) 0 var(--_r1),0 calc(5*var(--s)/4) var(--_r1),
-      conic-gradient(at var(--t) calc(20% + 2*var(--t)),#0000 75%,var(--c1) 0)
-      calc(var(--t)/-2) calc(var(--s) - var(--t))/var(--s) calc(5*var(--s)/4),
-      repeating-conic-gradient(var(--c2) 0 25%,#0000 0 50%)
-      var(--s) calc(var(--s)/-8)/var(--_s),
-      conic-gradient(from 90deg at var(--t) var(--t),var(--c2) 25%,var(--c1) 0) 
-      calc((var(--s) - var(--t))/2) calc((var(--s) - var(--t))/2)/var(--s) calc(5*var(--s)/4);
-  }
+html {background-color: black;}
   
 
 header{border: 2px solid #c117a1;
@@ -35,6 +16,10 @@ ul > li {
   float: center;
   margin-right: 10%;
 }
+main {text-align: center;}
+main > h2 {color: #c117a1; text-align:center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-size:large;}
 
 li > a {
   color: rgb(176, 13, 111);
@@ -53,8 +38,20 @@ h2 {
   margin-top: 5%;
 }
 
+img {display: inline;
+float: center;
+margin-right: 2.5%; margin-left: 2.5%}
+
+.star {max-width: 30px; max-height: 30px;}
 
 p {background-color:#c117a1; color:white;}
 
+.city {max-width: 300px; max-height: 300px;}
 
+.rain {max-width: 300px; max-height: 300px;}
 
+.umbrella {max-width: 300px; max-height: 300px;}
+
+.rainforest {max-width: 300px; max-height: 300px; align-items: center;}
+
+div {display: inline;}
